@@ -18,3 +18,5 @@ npm i dotenv
 ## Validar as variáveis de ambiente
 npm i zod
 
+## esLint - utilizando um padrão de escrita - Optei pela Rocketseat
+npm i @rocketseat/eslint-config -D
