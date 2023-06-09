@@ -1,13 +1,13 @@
 # API NodeJS Solid
 GymPass style app.
 
-# Executar o projeto em ts
+### Executar o projeto em ts
 npm run start:dev
 
-# Criar o build da aplicação em js
+### Criar o build da aplicação em js
 npm run build
 
-# Inicializar diretamente na produção
+### Inicializar diretamente na produção
 npm run start 
 
 

@@ -12,3 +12,9 @@ npx tsc --init
 ## Instalar o Fastify
 npm i fastify
 
+## Criar variáveis de ambiente
+npm i dotenv
+
+## Validar as variáveis de ambiente
+npm i zod
+
