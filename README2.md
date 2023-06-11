@@ -48,5 +48,9 @@ npx prisma migrate dev
 npx prisma studio
 
 ## Inicializar o Docker via Compose 
-- Após configurado no arquivo docker-compose.yml
+Após configurado no arquivo docker-compose.yml
 docker compose up -d
+
+## Biblioteca para hash de senha 
+npm i bcryptjs 
+npm i -D @types/bcryptjs
