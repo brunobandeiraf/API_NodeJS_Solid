@@ -44,7 +44,7 @@ docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSW
 ## Verifica na aplicação, o que não refletiu no banco e cria
 npx prisma migrate dev
 
-## Visualizar o Prisma Studio
+# Visualizar o Prisma Studio
 npx prisma studio
 
 ## Inicializar o Docker via Compose 
@@ -58,3 +58,6 @@ npm i -D @types/bcryptjs
 ## Trabalhando com Testes - Vitest 
 Plugin vite para compreender as importações com @
 npm i vitest vite-tsconfig-paths -D
+
+# Visualizar uma Interface para os Testes realizados
+npm i -D @vitest/ui
