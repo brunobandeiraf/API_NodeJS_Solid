@@ -102,3 +102,6 @@ npm i -D @vitest/ui
 
 # Biblioteca para trabalhar com datas
 npm i dayjs
+
+# Fastify JWT - Para autenticação
+npm i @fastify/jwt
