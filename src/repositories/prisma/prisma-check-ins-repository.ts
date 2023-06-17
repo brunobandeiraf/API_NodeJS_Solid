@@ -22,6 +22,8 @@ export class PrismaCheckInsRepository implements CheckInsRepository {
       where: {
         user_id: userId,
         created_at: {
+          // Qualquer momento feito do começo do dia
+          // antes do final do dia
           gte: startOfTheDay.toDate(),
           lte: endOfTheDay.toDate(),
         },
