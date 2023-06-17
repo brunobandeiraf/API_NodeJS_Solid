@@ -105,3 +105,10 @@ npm i dayjs
 
 # Fastify JWT - Para autenticação
 npm i @fastify/jwt
+
+# Dentro de prima/vitest-environment-prima
+npm link
+
+# Após comando acima, volta na principal e instala link
+npm link vitest-environment-prisma
+
