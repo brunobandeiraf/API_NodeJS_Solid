@@ -112,3 +112,5 @@ npm link
 # Após comando acima, volta na principal e instala link
 npm link vitest-environment-prisma
 
+# Executar scripts adaptando ao SO
+npm install -D npm-run-all
