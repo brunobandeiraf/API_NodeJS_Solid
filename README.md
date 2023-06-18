@@ -36,7 +36,7 @@ npm run build
 
 ### Inicializar diretamente na produção
 npm run start 
-__
+________
 ## Criar o package.json
 npm init -y
 
