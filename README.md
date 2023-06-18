@@ -27,7 +27,6 @@ GymPass Style App.
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [x] O usuário deve ser identificado por um JWT (JSON Web Token);
 
-
 # Comandos utilizados
 ### Executar o projeto em ts
 npm run start:dev
