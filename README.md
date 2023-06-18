@@ -114,3 +114,9 @@ npm link vitest-environment-prisma
 
 # Executar scripts adaptando ao SO
 npm install -D npm-run-all
+
+# Super Test - Requisições HTTP sem precisar colocar app no ar
+npm i supertest -D
+
+# Biblioteca JS, mas para adaptar ao TS
+npm i @types/supertest -D
