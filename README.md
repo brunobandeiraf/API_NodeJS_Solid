@@ -103,7 +103,7 @@ npm i -D @vitest/ui
 # Biblioteca para trabalhar com datas
 npm i dayjs
 
-# Fastify JWT - Para autenticação
+# Fastify JWT - Para autenticação - token
 npm i @fastify/jwt
 
 # Dentro de prima/vitest-environment-prima
@@ -118,5 +118,8 @@ npm install -D npm-run-all
 # Super Test - Requisições HTTP sem precisar colocar app no ar
 npm i supertest -D
 
-# Biblioteca JS, mas para adaptar ao TS
+# Biblioteca JS, mas para adaptar ao TS o supertest
 npm i @types/supertest -D
+
+# Trabalhar com Cookies na Aplicação
+npm i @fastify/cookie
