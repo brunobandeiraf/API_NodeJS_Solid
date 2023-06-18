@@ -4,10 +4,12 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 
 describe('Register (e2e)', () => {
   beforeAll(async () => {
+    // Fastify concluiu a inicialização
     await app.ready()
   })
 
   afterAll(async () => {
+    // Fastify finaliza
     await app.close()
   })
 
