@@ -44,7 +44,7 @@ export async function authenticate(
     return reply
       .setCookie('refreshToken', refreshToken, {
         path: '/',
-        secure: true,
+        secure: true, // True - FrontEnd não pode ler o cookie
         sameSite: true,
         httpOnly: true,
       })
